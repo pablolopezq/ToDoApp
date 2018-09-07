@@ -15,6 +15,7 @@ export default (Tab = createMaterialBottomTabNavigator(
     initialRouteName: "All",
     activeTintColor: "#f0edf6",
     inactiveTintColor: "#3e2465",
-    barStyle: { backgroundColor: "#694fad" }
+    barStyle: { backgroundColor: "#694fad" },
+    labeled: false
   }
 ));
